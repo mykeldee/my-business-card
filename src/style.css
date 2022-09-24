@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+.app {
+    color:#ffffff;
+    border-radius: 10px;
+    font-size:0px;
+    background-color: #1A1B21;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+main {
+    width: 317px;
+    height: 340px;
+    background-color: #1A1B21;
+    margin-top:0px;
+}
+
+.main--title_name {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0.1rem;
+    font-weight: regular;
+}
+
+.main--title_web {
+    font-weight: regular;
+    font-size: 10.4px;
+    margin-top: 0.2rem;
+    font-weight: regular;
+}
+
+.main--title_role {
+    color: #F3BF99;
+    font-size: 12.8px;
+    margin-top: 0.2rem;
+    font-weight: regular;
+}
+button {
+    width: 115px;
+    height: 34px;
+    font-size: 14px;
+    font-weight:medium;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 1px 6px 1px 6px;  
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #64dbff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.btn--linkedin {
+    color: #fff;
+    background-color: #0077B5;  
+}
+
+.btn--email {
+    margin:20px;
+}
+
+button > * {
+    height: 16px;
+    margin: 0.3rem;
+    vertical-align:middle;
+}
+
+button > img {
+    text-align:left;
+}
+
+.btn--email > img, .btn--linkedin > img {
+    height:16px;
+    width:16px;;
+}
+
+.main--about, .main--interests {
+    overflow-wrap: break-word;
+    text-align: justify;
+    padding: 0px 30px 0px 30px;
+}
+
+.about--title, .interests--title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.about--info, .interests--info {
+    font-size: 10.24px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.main--details{
+    padding:5px;
+}
+
+.main--links {
+    margin-top: 20px;
+    align-content: center;
+    height: 50px;
+    position: relative;
+}
+
+.main--links_center {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app--img {
+    width: 317px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.footer--img {
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--img > img {
+    display: inline-block;
+    margin: 25px 10px;
+    height: 25px;
+    width: 25px;
+}
+
+
+.main--app {
+    margin-top:0;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #bbc6cf;
+        background-color: #85a5c5;
+    }
+}
